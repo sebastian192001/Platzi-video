@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sebastian192001.github.io/PlatziVideo",
+  "homepage": "https://sebastian192001.github.io/Platzi-video",
   "name": "PlatziVideo",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --env development",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
