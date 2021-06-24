@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NotFound = () => (
     <>
-        <h1>NO encontrado</h1>
-        <h2>vuelve al home</h2>
+       {/*  <Link to ="/"> */}
+            <h1> NO encontrado</h1>
+            <h2>vuelve al home</h2>
+       {/*  </Link> */}
     </>
 )
 
